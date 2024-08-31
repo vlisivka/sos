@@ -69,14 +69,28 @@ main() {
         # Ask AI to answer the question using data
         echo "<reply>"
         {
-          echo "$question"
+          echo "Below is question enclosed in <question></question> tag, which must be answered. Then additional instructions follow in <instruction></instruction> tag. Then document, for which question must be answered, in <document></document> tag."
+          echo "<document>"
+          cat $input_file
+          echo "</document>"
+          echo "<question>$question</question>"
           echo
-          echo "Repeat the question, in $LANGUAGE language, in <question>the qeustion</question>. Answer question with <answer>yes</answer> or <answer>no</answer>."
+          echo "<instruction>Repeat the question, in $LANGUAGE language, in <question>the qeustion</question>. Answer question with <answer>yes</answer> or <answer>no</answer>."
           echo "Respond in $LANGUAGE language."
+          echo "Carefuly understand startup documentation, then answer to question with <answer>yes</answer> or <answer>no</answer>"
+          echo "Write comments helpful for founder or investor in <comment></comment> tag."
+          echo "If you uncertain or need additional data to answer the question, write them in <need-answers>request</need-answers>."
+          echo "The order of tags is:"
+          echo "<question>question</question>"
+          echo "<steps>reasoning steps, if asked</steps>"
+          echo "<answer>yes/no</answer>"
+          echo "<comments>comments</comments>"
+          echo "<needs-answers>request for additional information</need-answers>"
+
           echo "${CUSTOM_PROMPT:-}"
           [ "$DEBUG_REASONING" == "no" ] || echo "Before writing the answer, write, in $LANGUAGE language, step-by-step reasoning in a <steps>steps performed to make conclusiion</steps> tag first."
-          echo
-          cat $input_file
+          echo "</instruction>"
+          echo "Respond to the question in <question></question> tag and follow instructions <instruction></instruction> tag."
         } | aichat -r unit-test
         question=""
         echo "</reply>$NL"
