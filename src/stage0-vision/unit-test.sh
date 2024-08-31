@@ -79,7 +79,7 @@ main() {
           echo "Respond in $LANGUAGE language."
           echo "Carefuly understand startup documentation, then answer to question with <answer>yes</answer> or <answer>no</answer>"
           echo "Write comments helpful for founder or investor in <comment></comment> tag."
-          echo "If you uncertain or need additional data to answer the question, write them in <need-answers>request</need-answers>."
+          echo "If you uncertain or need additional data to answer the question, write them in <needs-answers>request</need-answers>."
           echo "The order of tags is:"
           echo "<question>question</question>"
           echo "<steps>reasoning steps, if asked</steps>"

@@ -127,7 +127,7 @@ The answer depends on how the transition is managed and what new opportunities a
 <question>Would individuals be empowered and have greater agency in this future?</question>
 <answer>uncertain</answer>
 <comments>This is a complex question with no easy answer. The impact on individual empowerment would depend on various factors, such as the nature of the new jobs created, access to training and reskilling opportunities, and social safety nets.</comments>
-<need-answers>To give a more definitive answer, I need more information about:
+<needs-answers>To give a more definitive answer, I need more information about:
 
 * What types of new roles would emerge in this future? 
 * How would the transition to a digital workforce be managed? Would there be support for displaced workers?
@@ -141,7 +141,7 @@ The answer depends on how the transition is managed and what new opportunities a
 <question>Does your vision promote sustainability and responsible resource management?</question>
 <answer data-answer="no">no</answer>
 <comments>While the startup's focus on efficiency could lead to reduced resource consumption in some areas, the potential for widespread job displacement raises concerns about social sustainability and the equitable distribution of resources. </comments>
-<need-answers>Does the startup have plans to address the potential negative impacts of job displacement? How will the startup ensure that the benefits of increased efficiency are shared equitably?</need-answers> 
+<needs-answers>Does the startup have plans to address the potential negative impacts of job displacement? How will the startup ensure that the benefits of increased efficiency are shared equitably?</need-answers> 
 
 
 </reply>
