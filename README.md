@@ -1,6 +1,6 @@
 # Save Our Startup (SOS)
 
-The idea of this is to use AI to force founders to follow predentermined path, with AI-based couching.
+The idea of this is to use AI to force founders to follow predentermined path of product discovery, with AI-based couching.
 
 Product is in pre-alpha state (works somewhat for me only).
 
