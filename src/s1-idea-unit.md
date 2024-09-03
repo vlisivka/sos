@@ -4,6 +4,8 @@
 
 **Is there a large enough market for your product or service to be sustainable?** (Consider both current size and potential growth)
 
+**Will the business generate $100M or more in annual revenue within 10 years?** (Fully developed Unicorn must generate $100M annual revenue at least to cost $1 billion)
+
 **Are you passionate about this problem and committed to solving it long-term?** (Startup journeys are challenging; passion is fuel)
 
 **Do you have a clear understanding of your target customer's needs and desires?** (Empathy for your audience is crucial)
@@ -29,6 +31,8 @@
 **Is this a software company?** (Software companies need less money to start and operate)
 
 **Is the idea large enogh or groundbreaking to have a Large-Scale impact within the idnustry?** (Large-Scale impact could mean an idea worthy of improving the lives of millions of people)
+
+**Чи саме ваша команда є найкращою для вирішення цієї проблеми?** (Чи є опис того, чому саме ця команда здатна вирішити цю проблему краще, ніж інші команди конкурентів, які також працюють над цією проблемою)
 
 **Чи є у команди достатньо грошей, щоб втілити ідею в життя?** (Команда повинна мати достатньо грошей щоб виконати щонайменше 30 ітерацій продукту тривалістю 2 тижні кожна)
 
