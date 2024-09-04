@@ -85,7 +85,7 @@ exit 0
 
 #>> Critique the document in markdown format using ollama and set of questions.
 #>>
-#>> Usage: critique.sh [OPTIONS] DOCUMENT_MD CRITIC_QUESTIONS_MD[...]
+#>> Usage: critic.sh [OPTIONS] DOCUMENT_MD CRITIC_QUESTIONS_MD[...]
 #>>
 #>> Options:
 #>>   -h | --help  show this help text.
