@@ -1,6 +1,13 @@
 #!/bin/bash
 . import.sh strict log arguments
 
+# TODO: Watch a file and rerun test cases on save.
+# TODO: Option to rerurn failed test cases only.
+# TODO:   Separate file for each question?
+# TODO: Option to ignore some test cases. (classes? labels? tags? comments?)
+# TODO: Specify files, which are necessary for the question, in the file with questions.
+
+
 DEBUG_REASONING="no" # Set to yes to turn step-by-step reasoning
 LANGUAGE="English"
 CUSTOM_PROMPT=""

@@ -1,6 +1,8 @@
 #!/bin/bash
 . import.sh strict log arguments
 
+# TODO: Make summary of critique and check is it contains enough information to be worth to read.
+
 DEBUG_REASONING="no" # Set to yes to turn step-by-step reasoning
 LANGUAGE="English"
 CUSTOM_PROMPT=""
